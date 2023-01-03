@@ -39,6 +39,10 @@ body{
     max-width: 100%;
 }
 
+.logo-icon img{
+    padding-top: 10;
+}
+
 .container ul li{
     text-decoration: none;
     list-style-type: none;
@@ -76,6 +80,81 @@ body{
 }
 .usps-bar{
     background-color: #CCD6A6;
+}
+
+i.fa-solid.fa-cart-shopping{
+    position: absolute;
+    display: flex;
+    right: 225;
+    bottom: 4;
+}
+
+i.fa-solid.fa-cart-shopping::after{
+    position: absolute;
+    bottom: -7;
+    width: 0;
+    transition: 0.3s;
+}
+
+i.fa-solid.fa-cart-shopping:hover::after{
+    width: 40;
+}
+
+i.fa-solid.fa-user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    right: 100;
+}
+
+i.fa-solid.fa-user::after{
+    position: absolute;
+    bottom: -6;
+    width: 0;
+    transition: 0.3s;
+}
+
+i.fa-solid.fa-user:hover::after{
+    width: 74;
+}
+
+i.fa-solid.fa-user p{
+    font-family:'Montserrat2';
+}
+
+.menu a i:after{
+    content: "";
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    background-color: #abb77b;
+    height: 3px;
+    width: 0;
+    transition: 0.3s;
+}
+
+.menu a i:hover::after{
+    width: 57;
+}
+
+.menu ul li:nth-child(2) a i::after{
+    width: 0;
+    transition: 0.3s;
+}
+
+.menu ul li:nth-child(2) a i:hover::after{
+    width: 115;
+}
+
+.menu ul li:nth-child(3) a i::after{
+    width: 0;
+    transition: 0.3s;
+}
+
+.menu ul li:nth-child(3) a i:hover::after{
+    width: 74;
 }
 
 .header-nav{
@@ -244,6 +323,7 @@ nav{
     z-index: 99;
     background-color: #CCD6A6;
     padding: 16px;
+    padding-bottom: 0px;
 }
 
 .hamburger{
