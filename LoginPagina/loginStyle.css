@@ -1,0 +1,56 @@
+body{
+    font-family: 'Franklin Gothic Medium';
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+
+}
+
+
+.container{
+    text-align: center;
+    height: 500px;
+    width: 45%;
+}
+
+.container2{
+    background-color: #1b1b32;
+    height: 370px;
+    width: 100%;
+}
+
+fieldset{
+    height: 250px;
+    width: 90%;
+    margin: 0 auto;
+    border: none;
+}
+
+label, input{
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+label{
+    margin-top: 6%;
+    font-size: 150%;
+}
+
+input{
+    background-color: #0a0a23;
+    border-color: #0a0a23;
+    color: #ffffff;
+    width: 70%;
+}
+
+#submit{
+    margin-top: 12%;
+    font-size: 15px;
+    width: 50%;
+    height: 15%;
+}
+#submit:hover{
+    background-color: white;
+    color: black;
+}
