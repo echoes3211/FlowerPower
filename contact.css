@@ -25,24 +25,7 @@ body {
     background-color: #DAE2B6;
 }
 
-.info1 {
-    padding-top: 90;
-    padding-bottom: 10;
-    display: flex;
-        color: white;
-}
-    
-.text {
-    display: flex;
-    flex-direction: column;
-    padding-left: 2%;
-    font-size: 20px;
-}
 
-.contact {
-    width: 100%;
-    color: white;
-}
 
 .container {
     margin-left: auto;
@@ -264,7 +247,6 @@ footer {
     padding-bottom: 50;
     margin-top: auto;
     width: auto;
-    bottom: 0;
 }
 
 ul#footer-submenu {
@@ -476,4 +458,33 @@ nav {
     padding-top: 100;
     position: relative;
     left: 18;
+}
+
+
+.contact {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 6%;
+}
+
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+#subject {
+    height: 140px;
+    padding-bottom: 10px;
 }
