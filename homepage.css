@@ -14,20 +14,20 @@
 }
 
 
-*{
+* {
     box-sizing: initial;
     margin: 0;
 }
 
 
-body{
+body {
     line-height: 1.5rem;
     background-color: #DAE2B6;
 }
 
 
 
-.container{
+.container {
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -35,36 +35,37 @@ body{
 
 }
 
-#header.logo{
+#header.logo {
     max-width: 100%;
 }
 
-.logo-icon img{
+.logo-icon img {
     padding-top: 10;
 }
 
-.container ul li{
+.container ul li {
     text-decoration: none;
     list-style-type: none;
-    font-family:'Montserrat2';
+    font-family: 'Montserrat2';
     font-size: small;
 }
-.klantenservice a{
+
+.klantenservice a {
     position: absolute;
     right: 100px;
     top: 7;
 }
 
 
-@media (max-width: 1125px){
+@media (max-width: 1125px) {
 
-    .container ul li{
+    .container ul li {
         display: none;
     }
 
 }
 
-.container ul{
+.container ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -72,35 +73,36 @@ body{
 
 }
 
-.container li{
+.container li {
     padding-left: 20;
     padding-right: 20;
     padding-top: 8;
     padding-bottom: 8;
 }
-.usps-bar{
+
+.usps-bar {
     background-color: #CCD6A6;
 }
 
-i.fa-solid.fa-cart-shopping{
+i.fa-solid.fa-cart-shopping {
     position: absolute;
     display: flex;
     right: 225;
     bottom: 4;
 }
 
-i.fa-solid.fa-cart-shopping::after{
+i.fa-solid.fa-cart-shopping::after {
     position: absolute;
     bottom: -7;
     width: 0;
     transition: 0.3s;
 }
 
-i.fa-solid.fa-cart-shopping:hover::after{
+i.fa-solid.fa-cart-shopping:hover::after {
     width: 40;
 }
 
-i.fa-solid.fa-user{
+i.fa-solid.fa-user {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -109,22 +111,22 @@ i.fa-solid.fa-user{
     right: 100;
 }
 
-i.fa-solid.fa-user::after{
+i.fa-solid.fa-user::after {
     position: absolute;
     bottom: -6;
     width: 0;
     transition: 0.3s;
 }
 
-i.fa-solid.fa-user:hover::after{
+i.fa-solid.fa-user:hover::after {
     width: 74;
 }
 
-i.fa-solid.fa-user p{
-    font-family:'Montserrat2';
+i.fa-solid.fa-user p {
+    font-family: 'Montserrat2';
 }
 
-.menu a i:after{
+.menu a i:after {
     content: "";
     position: absolute;
     display: flex;
@@ -135,41 +137,41 @@ i.fa-solid.fa-user p{
     transition: 0.3s;
 }
 
-.menu a i:hover::after{
+.menu a i:hover::after {
     width: 57;
 }
 
-.menu ul li:nth-child(2) a i::after{
+.menu ul li:nth-child(2) a i::after {
     width: 0;
     transition: 0.3s;
 }
 
-.menu ul li:nth-child(2) a i:hover::after{
+.menu ul li:nth-child(2) a i:hover::after {
     width: 115;
 }
 
-.menu ul li:nth-child(3) a i::after{
+.menu ul li:nth-child(3) a i::after {
     width: 0;
     transition: 0.3s;
 }
 
-.menu ul li:nth-child(3) a i:hover::after{
+.menu ul li:nth-child(3) a i:hover::after {
     width: 74;
 }
 
-.header-nav{
+.header-nav {
     background-color: #DAE2B6;
 }
 
-a:link{
+a:link {
     text-decoration: none;
 }
 
-.container a{
+.container a {
     color: white;
 }
 
-.logo-icon{
+.logo-icon {
     padding-left: 115;
     padding-top: 10;
     flex-direction: row;
@@ -179,16 +181,16 @@ a:link{
     width: 200px;
 }
 
-.container-logobar ul li{
+.container-logobar ul li {
     color: black;
-    list-style-type: none;  
+    list-style-type: none;
 }
 
-.container-logobar ul{
-    padding-left: 20px; 
+.container-logobar ul {
+    padding-left: 20px;
 }
 
-.menu{
+.menu {
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -196,7 +198,7 @@ a:link{
     width: 600;
 }
 
-.row2{
+.row2 {
     display: flex;
     justify-content: flex-end;
     width: auto;
@@ -207,22 +209,22 @@ a:link{
 }
 
 
-.textmenu{
+.textmenu {
     font-style: normal;
-    font-family:'Montserrat';
+    font-family: 'Montserrat';
     color: rgb(255, 255, 255);
 }
 
-.vink{
+.vink {
     font-style: normal;
     color: rgb(137, 205, 35);
 }
 
-.klok{
+.klok {
     font-style: normal;
 }
 
-.row2 .menu ul{
+.row2 .menu ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -230,15 +232,15 @@ a:link{
     padding-left: 0;
 }
 
-.menu img{
+.menu img {
     position: relative;
-    left:100;
+    left: 100;
     bottom: 10;
 }
 
 
 
-footer{
+footer {
     display: flex;
     justify-content: center;
     background-color: #CCD6A6;
@@ -247,75 +249,75 @@ footer{
     width: auto;
 }
 
-ul#footer-submenu{
+ul#footer-submenu {
     display: flex;
     flex-direction: column;
     list-style-type: none;
     padding-left: 0;
 }
 
-.h3-hidden{
+.h3-hidden {
     padding-top: 17;
     padding-left: 0px;
     border-bottom: solid rgb(243, 254, 217);
-    font-family:'Montserrat3';
+    font-family: 'Montserrat3';
     color: rgb(255, 255, 255);
 }
 
-ul li::marker{
+ul li::marker {
     list-style-type: none;
 
 
 }
 
-.links .row{
+.links .row {
     display: flex;
-    justify-content:space-between;
-    font-family:'Montserrat';
+    justify-content: space-between;
+    font-family: 'Montserrat';
     border-bottom: solid #e7edc4 2px;
     padding-bottom: 50;
     width: 500;
 }
 
-a#footerlink1.costum-page-link{
+a#footerlink1.costum-page-link {
     color: white;
 }
 
-a#footerlink2.costum-page-link{
+a#footerlink2.costum-page-link {
     color: white;
 }
 
-a#footerlink3.costum-page-link{
+a#footerlink3.costum-page-link {
     color: white;
 }
 
-a#footerlink4.costum-page-link{
+a#footerlink4.costum-page-link {
     color: white;
 }
 
 
 
-.bottomlinks{
-position: absolute;
-padding-top: 195;
-font-size: 10px;
-color: white;
+.bottomlinks {
+    position: absolute;
+    padding-top: 195;
+    font-size: 10px;
+    color: white;
 }
 
-.row{
+.row {
     display: flex;
     justify-content: space-between;
 }
 
-.bottomlinks p{
+.bottomlinks p {
     padding-left: 60;
 }
 
-.container-logobar{
+.container-logobar {
     margin: 0 auto;
 }
 
-nav{
+nav {
     position: fixed;
     top: 0;
     left: 0;
@@ -326,21 +328,21 @@ nav{
     padding-bottom: 0px;
 }
 
-.hamburger{
-display: block;
-position: relative;
-top: 10;
-left: 70;
-z-index: 1;
-user-select: none;
-appearance: none;
-border: none;
-outline: none;
-background: none;
-cursor: pointer;
+.hamburger {
+    display: block;
+    position: relative;
+    top: 10;
+    left: 70;
+    z-index: 1;
+    user-select: none;
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
 }
 
-.hamburger span{
+.hamburger span {
     display: block;
     width: 33px;
     height: 4px;
@@ -353,32 +355,32 @@ cursor: pointer;
     transform-origin: 0 0;
     transition: 0.4s;
 
-    
+
 }
 
-.hamburger:hover span:nth-child(2){
+.hamburger:hover span:nth-child(2) {
     transform: translateX(0px);
     background-color: #ffffff;
 }
 
-.hamburger.is-active span:nth-child(1){
+.hamburger.is-active span:nth-child(1) {
     transform: translate(0px, -2px) rotate(45deg);
 }
 
-.hamburger.is-active span:nth-child(2){
+.hamburger.is-active span:nth-child(2) {
     opacity: 0;
     transform: translate(15px);
 }
 
-.hamburger.is-active span:nth-child(3){
+.hamburger.is-active span:nth-child(3) {
     transform: translate(-3px, 3px) rotate(-45deg);
 }
 
-.hamburger.is-active:hover span{
+.hamburger.is-active:hover span {
     background-color: #95a068;
 }
 
-.mobile-nav{
+.mobile-nav {
     display: block;
     position: fixed;
     top: 80;
@@ -391,69 +393,414 @@ cursor: pointer;
     transition: 0.4s;
 }
 
-.mobile-nav.is-active{
+.mobile-nav.is-active {
     left: 0;
 }
 
-.mobile-nav a{
-        display: block;
-        width: 100%;
-        max-width: 200px;
-        margin: 0 auto 16px;
-        text-align: center;
-        padding: 12px 16px;
-        background-color: #79815a;
-        color: white;
-        text-decoration: none;
-        font-family:'Montserrat2';
+.mobile-nav a {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto 16px;
+    text-align: center;
+    padding: 12px 16px;
+    background-color: #79815a;
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat2';
 }
 
-.mobile-nav a:hover{
+.mobile-nav a:hover {
     background-color: #9faa71;
 }
 
-@media(max-width: 1125px){
-    .logo-icon img{
+@media(max-width: 1125px) {
+    .logo-icon img {
         height: 40px;
         padding-top: 33;
     }
 
 }
 
-@media(min-width: 1125px){
-    .mobile-nav{
+@media(min-width: 1125px) {
+    .mobile-nav {
         display: none;
     }
 
 }
 
-.menu{
+.menu {
     display: none;
 }
 
 @media (min-width: 1125px) {
-    
-    .hamburger{
+
+    .hamburger {
         display: none;
     }
 
-    .menu{
+    .menu {
         display: block;
     }
 
-    .header-nav{
+    .header-nav {
         display: block;
     }
 
 
 }
 
-.header-nav{
+.header-nav {
     display: none;
 }
 
-.doos{
+.doos {
     padding-top: 100;
     position: relative;
     left: 18;
+}
+
+.center-background {
+    padding-bottom: 100;
+}
+
+.stappenplan {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-right: 40;
+    padding-top: 40;
+    justify-content: space-evenly;
+}
+
+.home-wrapper h2 {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-family: 'Montserrat2';
+}
+
+.home-wrapper p {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-family: 'Montserrat';
+    padding-top: 20;
+}
+
+.stap1 img {
+    padding-left: 25;
+}
+
+
+.stap1 h3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20;
+    color: #ffffff;
+    font-family: 'Montserrat2';
+}
+
+.stap1 p {
+    display: flex;
+    justify-content: center;
+    padding-top: 20;
+    color: #ffffff;
+    font-family: 'Montserrat2';
+    text-align: center;
+}
+
+
+
+.stap2 h3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 15.5;
+    color: #ffffff;
+    font-family: 'Montserrat2';
+}
+
+.stap2 p {
+    display: flex;
+    justify-content: center;
+    padding-top: 20;
+    color: #ffffff;
+    font-family: 'Montserrat2';
+    text-align: center;
+}
+
+.stap3 img {
+    padding-left: 25;
+}
+
+.stap3 h3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20;
+    color: #ffffff;
+    font-family: 'Montserrat2';
+}
+
+.stap3 p {
+    display: flex;
+    justify-content: center;
+    padding-top: 20;
+    color: #ffffff;
+    font-family: 'Montserrat2';
+    text-align: center;
+}
+
+.stap4 img {
+    padding-left: 25;
+}
+
+.stap4 h3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 15.5;
+    color: #ffffff;
+    font-family: 'Montserrat2';
+}
+
+.stap4 p {
+    display: flex;
+    justify-content: center;
+    padding-top: 20;
+    color: #ffffff;
+    font-family: 'Montserrat2';
+    text-align: center;
+}
+
+.body-slider {
+    margin: 0;
+    padding: 0;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider {
+    width: 850px;
+    height: 550px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+
+}
+
+.slides {
+    width: 600%;
+    height: 550px;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    width: 20%;
+    transition: 2s;
+}
+
+.slide img {
+    width: 900px;
+    height: 600px;
+}
+
+/*css for manual slides*/
+
+.navigation-manual {
+    position: absolute;
+    width: 850px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn {
+    border: 2px solid #ffffff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+.manual-btn:hover {
+    background: #ffffff;
+}
+
+#radio1:checked~.first {
+    margin-left: 0;
+
+}
+
+#radio2:checked~.first {
+    margin-left: -20%;
+
+}
+
+#radio3:checked~.first {
+    margin-left: -40%;
+
+}
+
+#radio4:checked~.first {
+    margin-left: -60%;
+
+}
+
+.banner-uniek-boeket{
+    display: flex;
+    justify-content:center;
+    padding-top: 100;
+    padding-right: 400;
+}
+
+.banner-uniek-boeket .uniek-text {
+    max-width: 500;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Montserrat';
+    height: 400;
+    
+}
+
+
+.banner-uniek-boeket .uniek-text a {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.banner-uniek-boeket img{
+    position: relative;
+    bottom: 280;
+    right: 200;
+    z-index: -1;
+}
+
+
+
+.banner-uniek-boeket2{
+    display: flex;
+    justify-content:center;
+    padding-bottom: 40;
+    padding-left: 400;
+}
+
+.banner-uniek-boeket2 .uniek-text2 {
+    max-width: 500;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-size: small;
+    height: 400;
+    
+}
+
+
+
+
+.banner-uniek-boeket2 img{
+    position: relative;
+    bottom: 300;
+    right: 400;
+    z-index: -1;
+    width: 500;
+}
+
+.Welkom {
+    padding-top: 120;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat';
+    color: #ffffff;
+}
+
+@media(max-width: 1227px){
+    .body-slider{
+        margin: 0;
+        padding: 0;
+        height: 85vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .slider {
+        width: 700px;
+        height: 400px;
+    }
+    .slides {
+        width: 500%;
+        height: 400px;
+    }
+
+    .slide img {
+        width: 750px;
+        height: 500px;
+    }
+
+    .navigation-manual {
+        width: 700px;
+    }
+
+    .banner-uniek-boeket{
+        padding-right: 350;
+    }
+
+    .banner-uniek-boeket .uniek-text{
+        font-size: small;
+        max-width: 400;
+    
+    }
+
+    .banner-uniek-boeket img {
+        width: 900;
+        bottom: 255;
+    }
+
+    .banner-uniek-boeket2{
+
+    }
+
+    .banner-uniek-boeket2 .uniek-text2{
+        max-width: 400;
+        font-size: x-small;
+    }
+
+    .banner-uniek-boeket2 img{
+        bottom: 310;
+        width: 500;
+
+    }
+
+    .stappenplan{
+        flex-direction: column;
+    }
+
+    .stappenplan .stap1 img{
+        padding-left: 300;
+
+    }
+
+    .stappenplan .stap2 img{
+        padding-left: 300;
+
+    }
+
+    .stappenplan .stap3 img{
+        padding-left: 300;
+
+    }
+
+    .stappenplan .stap4 img{
+        padding-left: 300;
+
+    }
 }
